@@ -4,6 +4,7 @@
 @import 'components/header.css';
 @import 'components/searchbar.css';
 @import 'components/filters.css';
+@import 'components/footer.css';
 
 html {
   max-width: 1400px;
@@ -73,9 +74,4 @@ section {
 
 .activities-container {
   display: flex;
-}
-
-footer {
-  width: 100%;
-  background-color: #F2F2F2
 }
