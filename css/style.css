@@ -1,9 +1,11 @@
 @import 'components/card-main.css';
 @import 'components/card-sponsored.css';
 @import 'components/card-activity.css';
+@import 'components/header.css';
 
 html {
   max-width: 1400px;
+  scroll-behavior: smooth;
 }
 
 body {

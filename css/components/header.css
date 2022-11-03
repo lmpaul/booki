@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 61.09px;
+  height: 19px;
+}
+
+nav {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 30px 10px;
+  color: black;
+}
+
+nav a:hover {
+  border-top: solid #0065fc 2px;
+  padding: 28px 10px;
+  color: #0065fc;
+}
