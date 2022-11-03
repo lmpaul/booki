@@ -2,6 +2,7 @@
 @import 'components/card-sponsored.css';
 @import 'components/card-activity.css';
 @import 'components/header.css';
+@import 'components/searchbar.css';
 
 html {
   max-width: 1400px;
@@ -41,6 +42,13 @@ section {
   background-color: #f2f2f2;
   padding: 20px 30px;
   border-radius: 40px;
+}
+
+.sponsored {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #accomodation {
