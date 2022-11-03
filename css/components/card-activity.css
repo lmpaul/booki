@@ -1,0 +1,13 @@
+.card-activity {
+  width: 302px;
+  height: 445px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+.card-activity img {
+  width: 100%;
+  height: 90%;
+}

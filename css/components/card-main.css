@@ -1,0 +1,20 @@
+.card-main {
+  background-color: white;
+  width: 246px;
+  height: 199px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-main img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-main p, .card-main h4 {
+  margin: 5px;
+}

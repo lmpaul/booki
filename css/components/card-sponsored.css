@@ -1,0 +1,26 @@
+.card-sponsored {
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+  width: 343px;
+  height: 144px;
+  margin: 30px 0;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-sponsored img {
+  width: 137px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.card-sponsored-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-sponsored h4, p {
+  margin: 10px;
+}
