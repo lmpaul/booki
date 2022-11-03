@@ -12,11 +12,15 @@
 }
 
 .filters a {
-  border: solid 1px #f2f2f2;
+  border: solid 3px #f2f2f2;
   border-radius: 30px;
   padding: 15px 20px;
   color: black;
   font-weight: 700;
+}
+
+.filters a:hover {
+  background-color: #deebff;
 }
 
 .filters a i {
