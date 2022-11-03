@@ -24,3 +24,11 @@
 .card-sponsored h4, p {
   margin: 10px;
 }
+
+.card-sponsored h4{
+  font-size: 16px;
+}
+
+.card-sponsored p {
+  font-size: 14px;
+}

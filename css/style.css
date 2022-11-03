@@ -23,6 +23,10 @@ p, a {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
 i {
   color: #0065FC;
 }
