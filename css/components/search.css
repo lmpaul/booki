@@ -1,3 +1,41 @@
+/* SEARCH BAR */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+
+.search-bar i {
+  padding: 15px;
+  background-color: #F2F2F2;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.search-bar input {
+  padding: 15px;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+  border-left: 0;
+  border-right: 0;
+  font-weight: 700;
+}
+
+.btn-search {
+  background-color: #0065fc;
+  border: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 0px 15px 15px 0px;
+}
+
+/* FILTERS */
+
 .filters {
   display: flex;
   width: 65%;

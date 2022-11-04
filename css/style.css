@@ -1,10 +1,7 @@
-@import 'components/card-main.css';
-@import 'components/card-sponsored.css';
-@import 'components/card-activity.css';
-@import 'components/header.css';
-@import 'components/searchbar.css';
-@import 'components/filters.css';
-@import 'components/footer.css';
+@import 'components/cards.css';
+@import 'components/search.css';
+
+/* General HTML Tags */
 
 html {
   scroll-behavior: smooth;
@@ -14,12 +11,6 @@ body {
   width: 100%;
   overflow-x: hidden;
   margin: 0;
-}
-
-.container {
-  width: 90%;
-  padding: 0 5%;
-  margin: 0 auto;
 }
 
 h1, h2, h3, h4, p, a {
@@ -46,29 +37,93 @@ section {
   padding: 25px 0;
 }
 
+/* Header */
+
+header {
+  display: flex;
+  width: 90%;
+  padding: 0% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 60px;
+  height: 19px;
+}
+
+nav {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 30px 10px;
+  color: black;
+}
+
+nav a:hover {
+  border-top: solid #0065fc 2px;
+  padding: 28px 10px;
+  color: #0065fc;
+}
+
+/* Footer */
+
+footer {
+  max-width: 100%;
+  background-color: #F2F2F2;
+  padding: 30px 0;
+}
+
+.footer-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  margin: 10px 0px;
+  color: black;
+}
+
+/* Generic design with classes */
+
+.container {
+  width: 90%;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
 .grey-container {
   background-color: #f2f2f2;
   padding: 20px 30px;
   border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .sponsored {
   width: 100%;
+  height: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Custom design with ids */
+
 #accomodation {
   display: flex;
   justify-content: space-between;
-}
-
-#accomodation a {
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
 }
 
 #accomodation .grey-container:nth-child(1) {
@@ -79,17 +134,25 @@ section {
   width: 30%;
 }
 
-.results-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 30px;
+#accomodation a {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
 }
 
-.activities-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 0;
+#see-more {
+  width: 110px;
+}
+
+#see-more:hover {
+  width: 150px;
+  color: #0065fc;
+}
+
+
+@media (min-width: 1500px) {
+  .filters {
+    width: 50%
+  }
 }
