@@ -7,13 +7,18 @@
 @import 'components/footer.css';
 
 html {
-  max-width: 1400px;
-  margin: 0 auto;
   scroll-behavior: smooth;
 }
 
 body {
-  width: 1339px;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  padding: 0 5%;
   margin: 0 auto;
 }
 
@@ -57,6 +62,7 @@ section {
 #accomodation {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #accomodation a {
@@ -66,13 +72,25 @@ section {
   color: black;
 }
 
+#accomodation .grey-container:nth-child(1) {
+  width: 60%;
+}
+
+#accomodation .grey-container:nth-child(2) {
+  width: 28%;
+}
+
 .results-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .activities-container {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
 }

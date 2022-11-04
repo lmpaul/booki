@@ -3,14 +3,14 @@
   display: flex;
   padding: 10px;
   border-radius: 20px;
-  width: 343px;
+  width: 90%;
   height: 144px;
-  margin: 30px 0;
+  margin: 30px auto;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-sponsored img {
-  width: 137px;
+  width: 40%;
   object-fit: cover;
   margin-right: 10px;
 }
@@ -25,7 +25,7 @@
   margin: 10px;
 }
 
-.card-sponsored h4{
+.card-sponsored h4 {
   font-size: 16px;
 }
 
