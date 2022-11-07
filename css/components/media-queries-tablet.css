@@ -1,0 +1,34 @@
+@media (max-width: 991px) {
+  #accomodation {
+    flex-wrap: wrap;
+  }
+
+  #accomodation .grey-container {
+    min-width: 90%;
+    margin: 25px auto;
+  }
+
+  .card-main {
+    width: 30%;
+  }
+
+  .sponsored-container {
+    flex-direction: row;
+  }
+
+  .card-sponsored {
+    width: 30%;
+  }
+
+  .filters {
+    width: 90%;
+  }
+
+  .card-activity {
+    height: 267px;
+  }
+
+    .card-activity img {
+      height: 78%;
+    }
+}

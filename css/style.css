@@ -1,11 +1,15 @@
 @import 'components/cards.css';
 @import 'components/search.css';
+@import 'components/media-queries-tablet.css';
 
 /* General HTML Tags */
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  max-width: 1400px;
 }
+
 
 body {
   width: 100%;
@@ -72,9 +76,10 @@ nav a:hover {
 /* Footer */
 
 footer {
-  max-width: 100%;
+  width: 90%;
   background-color: #F2F2F2;
   padding: 30px 0;
+  margin: 0 auto;
 }
 
 .footer-sections {
@@ -104,7 +109,7 @@ footer a {
 
 .grey-container {
   background-color: #f2f2f2;
-  padding: 20px 30px;
+  padding: 20px 2.5%;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
@@ -127,7 +132,7 @@ footer a {
 }
 
 #accomodation .grey-container:nth-child(1) {
-  width: 60%;
+  width: 58%;
 }
 
 #accomodation .grey-container:nth-child(2) {
@@ -143,6 +148,7 @@ footer a {
 
 #see-more {
   width: 110px;
+  padding: 15px 0;
 }
 
 #see-more:hover {
