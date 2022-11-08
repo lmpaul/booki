@@ -4,7 +4,7 @@
   }
 
   #accomodation .grey-container {
-    min-width: 90%;
+    min-width: 95%;
     margin: 25px auto;
   }
 
@@ -20,8 +20,16 @@
     width: 30%;
   }
 
+  .card-sponsored h4 {
+    font-size: 14px;
+  }
+
   .filters {
-    width: 90%;
+    width: 100%;
+  }
+
+  .filters a {
+    padding: 15px 10px;
   }
 
   .card-activity {
