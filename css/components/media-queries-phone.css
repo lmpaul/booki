@@ -1,13 +1,108 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
-  .header {
-    width: 100vw;
+  .container {
+    width: 100vw !important;
   }
 
-.sponsored-container {
+  .header-wrapper {
+    flex-direction: column;
+    min-width: 100%;
+  }
+
+  .header-wrapper img {
+    padding: 20px 0;
+  }
+
+  .header-wrapper nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  .header-wrapper nav a {
+    margin: 0;
+    width: 50%;
+    text-align: center;
+    border-bottom: solid 2px #f2f2f2;
+  }
+
+  .header-wrapper nav a:hover {
+    border-bottom: solid #0065fc 2px;
+    border-top: 0;
+    padding: 30px 0;
+  }
+
+  #search {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+
+  #search form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 100%;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+    min-width: 100%;
+    justify-content: space-around;
+  }
+
+  .filters p {
+    width: 100%;
+  }
+
+  .filters a {
+    width: 40%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  #accomodation h2 {
+    margin-left: 20px;
+  }
+
+  #accomodation aside {
+    border-radius: 0;
+    order: 1;
+  }
+
+  #accomodation .grey-container:nth-child(1) {
+    background-color: white;
+    border-radius: 0;
+    order: 2;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .results-container {
+    justify-content: center;
+  }
+
+  .card-main {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #see-more {
+    margin-left: 40px;
+  }
+
+  .sponsored-container {
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 10px 0;
+  }
+
+  .sponsored {
+    width: 90% !important;
   }
 
   .card-sponsored {
@@ -15,7 +110,35 @@
     margin: 10px auto;
   }
 
-  .header-wrapper {
-    flex-direction: column;
+  #activities h2 {
+    margin-left: 40px;
+  }
+
+  .activities-container {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .card-activity {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  footer {
+    min-width: 100%;
+  }
+
+  .footer-sections {
+    flex-direction: column !important;
+  }
+
+  .footer-sections a h3 {
+    margin: 0;
+  }
+
+  .footer-links {
+    margin: 20px 0;
+    padding: 0 20px;
   }
 }

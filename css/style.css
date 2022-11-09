@@ -1,6 +1,7 @@
 @import 'components/cards.css';
 @import 'components/search.css';
 @import 'components/media-queries-tablet.css';
+@import 'components/media-queries-phone.css';
 
 /* General HTML Tags */
 
@@ -73,7 +74,7 @@ nav a {
 
 nav a:hover {
   border-top: solid #0065fc 2px;
-  padding: 28px 10px;
+  padding: 28px 0;
   color: #0065fc;
 }
 

@@ -12,7 +12,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 30px;
-  height: 80%;
 }
 
 .sponsored-container {
@@ -27,7 +26,6 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
 }
 
 /* CARD MAIN */
