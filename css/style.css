@@ -1,7 +1,6 @@
 @import 'components/cards.css';
 @import 'components/search.css';
 @import 'components/media-queries-tablet.css';
-@import 'components/media-queries-phone.css';
 
 /* General HTML Tags */
 
@@ -166,8 +165,8 @@ footer a {
 }
 
 
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
   .filters {
     width: 50%
   }
-}
+} */
