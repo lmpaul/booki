@@ -1,5 +1,9 @@
 @media screen and (max-width: 767px) {
 
+  section {
+    padding: 15px 0;
+  }
+
   .container {
     width: 100vw;
   }
@@ -39,6 +43,10 @@
     width: 90% !important;
     margin: 0 auto;
   }
+
+    .search-bar input {
+      font-size: 12px;
+    }
 
   #search form {
     display: flex;
@@ -95,7 +103,7 @@
     margin-left: 40px;
   }
 
-  .sponsored-container {
+  .sponsored-cards-container {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 10px 0;
@@ -140,5 +148,9 @@
   .footer-links {
     margin: 20px 0;
     padding: 0 20px;
+  }
+
+  #see-more {
+    display: none;
   }
 }
