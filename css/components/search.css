@@ -9,10 +9,15 @@
 
 }
 
-.search-bar i {
+.search-bar .fa-location-dot {
   padding: 15px;
   background-color: #F2F2F2;
   border-radius: 15px 0px 0px 15px;
+}
+
+.search-bar .fa-magnifying-glass {
+  color: white;
+  display: none;
 }
 
 .search-bar input {

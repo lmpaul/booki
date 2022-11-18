@@ -5,12 +5,15 @@
 
 html,
 body {
-  max-width: 100%;
+
   overflow-x: hidden;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -45,7 +48,7 @@ section {
 /* Header */
 
 header {
-  width: 100vw;
+  width: 100%;
 }
 
 .header-wrapper {
@@ -161,4 +164,19 @@ footer a {
 #see-more:hover {
   width: 150px;
   color: #0065fc;
+}
+
+@media screen and (max-width: 1148px) {
+
+  .filters {
+    width: 85%;
+  }
+
+  .card-main {
+    height: 220px;
+  }
+
+    .card-main-info {
+      height: 100px;
+    }
 }

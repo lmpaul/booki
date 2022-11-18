@@ -5,7 +5,7 @@
   }
 
   .container {
-    width: 100vw;
+    width: 100%;
   }
 
   .header-wrapper {
@@ -40,13 +40,13 @@
   }
 
   #search {
-    width: 90% !important;
+    width: 90%;
     margin: 0 auto;
   }
 
-    .search-bar input {
-      font-size: 12px;
-    }
+  .search-bar input {
+    font-size: 12px;
+  }
 
   #search form {
     display: flex;
@@ -54,6 +54,15 @@
     justify-content: center;
     margin-top: 40px;
     max-width: 100%;
+  }
+
+  .search-bar .fa-magnifying-glass {
+    display: block;
+    font-size: 18px;
+  }
+
+  .search-bar .search-text {
+    display: none;
   }
 
   .filters {
@@ -138,7 +147,7 @@
   }
 
   .footer-sections {
-    flex-direction: column !important;
+    flex-direction: column;
   }
 
   .footer-sections a h3 {
